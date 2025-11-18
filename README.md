@@ -53,10 +53,10 @@ Jupyter notebooks implementing various architectures and meta-learning methods t
 - **Token-CNN encoder**: k-mer-based convolutional encoder
 - **CNN–BiLSTM encoder**: Hybrid architecture for sequence modeling
 - **Transformer encoder**: Attention-based sequence representation
-- **Meta-learning methods**: MetaOptNet, ProtoNet, Bayesian variants, and more
+- **Meta-learning methods**: ProtoNet, ProtoMAML, MAML, Reptile, Bayesian ProtoNet, CAVIA (Context-Adaptation via Meta-Learning)
 
 #### `meta-learning-models/final/`
-Jupyter notebooks implementing MetaOptNet and Bayesian MetaOptNet algorithms(trained and tested on MegaRes dataset
+Jupyter notebooks implementing MetaOptNet and Bayesian MetaOptNet algorithms(trained and tested on the MegaRes dataset
 
 #### `experiments/`
 Jupyter notebooks containing:
@@ -67,7 +67,7 @@ Jupyter notebooks containing:
 - t-SNE & motif attribution analyses
 
 #### `results/model-checkpoints/`
-Pretrained model checkpoints saved during experiments for reproducibility and transfer learning.
+Pretrained model checkpoints were saved during experiments for reproducibility and transfer learning.
 
 ## Key Results
 
